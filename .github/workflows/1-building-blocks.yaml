@@ -1,5 +1,5 @@
 name: 01-Building Blocks                            # Name of the workflow
-on: push                                            # Event that triggers the workflow
+on: workflow_dispatch                                            # Event that triggers the workflow
 jobs:                                               # Definition of jobs in the workflow
     echo-hello:                                     # Name of the job
         runs-on: ubuntu-latest                      # Runner environment for the job
